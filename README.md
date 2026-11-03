@@ -1,6 +1,8 @@
 # CAN Bus Vehicle-to-Vehicle Alert System
 
-A four-node prototype of vehicle-to-vehicle (V2V) hazard alerts. A sensor node on the "front vehicle" detects four hazards (obstacle ahead, crash, low light, high temperature) and sends an alert code over a **CAN bus at 500 kbps** to a second node, which shows the alert on an LCD and sounds a buzzer.
+A two-node CAN bus prototype of vehicle-to-vehicle (V2V) hazard alerts, built from four boards.
+
+A sensor node on the "front vehicle" detects four hazards (obstacle ahead, crash, low light, high temperature) and sends an alert code over a **CAN bus at 500 kbps** to the second node, which shows the alert on an LCD and sounds a buzzer.
 
 Built with two STM32F103C8T6 (Blue Pill) boards, two Arduino Unos and two MCP2515 CAN controller modules.
 
